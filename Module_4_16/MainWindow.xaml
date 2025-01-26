@@ -5,8 +5,122 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Module_4_16"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="300" Width="300">
+    <Canvas>
+        <Ellipse Height="69" Canvas.Left="88" Stroke="Black" Canvas.Top="99.52" Width="57"/>
+        <Ellipse Height="69" Canvas.Left="150" Stroke="Black" Canvas.Top="107.52" Width="56" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Path Height="23" Canvas.Left="63.733" Stroke="Black" Stretch="Fill" Canvas.Top="71.64" Width="65">
+            <Path.Data>
+                <PathGeometry Figures="M127.73333,71.64 C106.51558,84.630461 91.266002,92.332548 63.733333,94.04"/>
+            </Path.Data>
+        </Path>
+        <Path Height="32" Canvas.Left="161.867" Stroke="Black" Stretch="Fill" Canvas.Top="72.707" Width="58">
+            <Path.Data>
+                <PathGeometry Figures="M161.86667,72.706667 C181.25974,91.068195 189.04544,100.81853 218.4,104.17333"/>
+            </Path.Data>
+        </Path>
+        <Path Height="27" Canvas.Left="86.667" Stroke="Black" Stretch="Fill" Canvas.Top="197.507" Width="131">
+            <Path.Data>
+                <PathGeometry Figures="M86.666667,216.17333 C107.30364,200.25338 123.19158,216.4388 151.2,220.44 181.06918,224.70703 192.06462,228.48528 216.26667,197.50667"/>
+            </Path.Data>
+        </Path>
+        <Ellipse Height="14" Canvas.Left="109" Stroke="Black" Canvas.Top="151" Width="14" RenderTransformOrigin="0.764,0.744" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Ellipse.Fill>
+                <RadialGradientBrush GradientOrigin="0.607,0.607">
+                    <GradientStop Color="#FFF7F1F1" Offset="0.227"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF121212" Offset="0.973"/>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+            <Ellipse.Triggers>
+                <EventTrigger RoutedEvent="Window.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimationUsingKeyFrames
+                                Storyboard.TargetProperty="(Canvas.Top)"
+                                Duration="0:0:3"
+                                RepeatBehavior="Forever">
+                                <LinearDoubleKeyFrame KeyTime="0%" Value="151"/>
+                                <LinearDoubleKeyFrame KeyTime="12.5%" Value="144"/>
+                                <LinearDoubleKeyFrame KeyTime="25%" Value="128"/>
+                                <LinearDoubleKeyFrame KeyTime="37.5%" Value="110"/>
+                                <LinearDoubleKeyFrame KeyTime="50%" Value="102"/>
+                                <LinearDoubleKeyFrame KeyTime="62.5%" Value="110"/>
+                                <LinearDoubleKeyFrame KeyTime="75%" Value="127"/>
+                                <LinearDoubleKeyFrame KeyTime="87.5%" Value="145"/>
+                                <LinearDoubleKeyFrame KeyTime="99.9%" Value="151"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimationUsingKeyFrames
+            Storyboard.TargetProperty="(Canvas.Left)"
+            Duration="0:0:3"
+            RepeatBehavior="Forever">
+                                <LinearDoubleKeyFrame KeyTime="0%" Value="109"/>
+                                <LinearDoubleKeyFrame KeyTime="12.5%" Value="122"/>
+                                <LinearDoubleKeyFrame KeyTime="25%" Value="127"/>
+                                <LinearDoubleKeyFrame KeyTime="37.5%" Value="123"/>
+                                <LinearDoubleKeyFrame KeyTime="50%" Value="109"/>
+                                <LinearDoubleKeyFrame KeyTime="62.5%" Value="96"/>
+                                <LinearDoubleKeyFrame KeyTime="75%" Value="90"/>
+                                <LinearDoubleKeyFrame KeyTime="87.5%" Value="96"/>
+                                <LinearDoubleKeyFrame KeyTime="99.99%" Value="109"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Ellipse.Triggers>
+        </Ellipse>
+        <Ellipse Height="14" Canvas.Left="171" Stroke="Black" Canvas.Top="158" Width="14" RenderTransformOrigin="0.764,0.744" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Ellipse.Fill>
+                <RadialGradientBrush GradientOrigin="0.607,0.607">
+                    <GradientStop Color="#FFF7F1F1" Offset="0.227"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF121212" Offset="0.973"/>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+            <Ellipse.Triggers>
+                <EventTrigger RoutedEvent="Window.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimationUsingKeyFrames
+                         Storyboard.TargetProperty="(Canvas.Top)"
+                         Duration="0:0:3"
+                         RepeatBehavior="Forever">
+                                <LinearDoubleKeyFrame KeyTime="0%" Value="158"/>
+                                <LinearDoubleKeyFrame KeyTime="12.5%" Value="153"/>
+                                <LinearDoubleKeyFrame KeyTime="25%" Value="137"/>
+                                <LinearDoubleKeyFrame KeyTime="37.5%" Value="118"/>
+                                <LinearDoubleKeyFrame KeyTime="50%" Value="110"/>
+                                <LinearDoubleKeyFrame KeyTime="62.5%" Value="118"/>
+                                <LinearDoubleKeyFrame KeyTime="75%" Value="134"/>
+                                <LinearDoubleKeyFrame KeyTime="87.5%" Value="149"/>
+                                <LinearDoubleKeyFrame KeyTime="99.9%" Value="158"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimationUsingKeyFrames
+     Storyboard.TargetProperty="(Canvas.Left)"
+     Duration="0:0:3"
+     RepeatBehavior="Forever">
+                                <LinearDoubleKeyFrame KeyTime="0%" Value="171"/>
+                                <LinearDoubleKeyFrame KeyTime="12.5%" Value="159"/>
+                                <LinearDoubleKeyFrame KeyTime="25%" Value="152"/>
+                                <LinearDoubleKeyFrame KeyTime="37.5%" Value="159"/>
+                                <LinearDoubleKeyFrame KeyTime="50%" Value="171"/>
+                                <LinearDoubleKeyFrame KeyTime="62.5%" Value="184"/>
+                                <LinearDoubleKeyFrame KeyTime="75%" Value="190"/>
+                                <LinearDoubleKeyFrame KeyTime="87.5%" Value="186"/>
+                                <LinearDoubleKeyFrame KeyTime="99.99%" Value="171"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Ellipse.Triggers>
+        </Ellipse>
+    </Canvas>
 </Window>
